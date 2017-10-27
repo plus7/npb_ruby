@@ -28,7 +28,7 @@
 		指定できる問題は小さい順にS,W,A,B,Cである。
 
 バグ
-	バグの報告・パッチの送付はtknose@is.s.u-tokyo.ac.jpまでお願いします。
+	バグの報告・パッチの送付はahya365@gmail.comまでお願いします。
 	些細なものでしたらTwitter(@plus7)でもかまいません。
 	このRuby版に関して NAS Parallel Benchmarks Group に問い合わせることはしないでください。
 
@@ -36,5 +36,5 @@ COPYING
 	変換元のNAS Parallel Benchmarks 3.0ならびにそのJava版に準じます。
 
 作者
-	野瀬 貴史 <tknose@is.s.u-tokyo.ac.jp>
+	野瀬 貴史 <ahya365@gmail.com>
 	泊 久信 <tomari@is.s.u-tokyo.ac.jp>

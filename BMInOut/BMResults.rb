@@ -45,7 +45,7 @@ class BMResults
 * Verification      = #{if @verified==1 then "Successful" else "Failed" end}
 * 
 * Please send all errors/feedbacks to:
-* tknose@is.s.u-tokyo.ac.jp
+* ahya365@gmail.com / https://twitter.com/plus7
 ***************************************************************
 EOS
     lines = content.split("\n")

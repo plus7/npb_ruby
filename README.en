@@ -20,7 +20,7 @@ OPTIONS
 
 BUGS
 	For all errors/feedbacks related to NPB3.0 Ruby version, please contact:
-	Takafumi NOSE <tknose@is.s.u-tokyo.ac.jp>
+	Takafumi NOSE <ahya365@gmail.com>
 	DO NOT CONTACT WITH NAS Parallel Benchmarks Team ABOUT THIS 
 	RUBY VERSION!
 
@@ -28,5 +28,5 @@ COPYING
 	Same as original NPB 3.0.
 
 AUTHOR
-	Takafumi NOSE <tknose@is.s.u-tokyo.ac.jp>
+	Takafumi NOSE <ahya365@gmail.com>
 	Hisanobu TOMARI <tomari@is.s.u-tokyo.ac.jp>
