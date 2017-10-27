@@ -1,0 +1,40 @@
+名称
+	NAS Parallel Benchmarks 3.0 Ruby移植版
+
+書式
+	ruby -I . [File] -CLASSproblem [Option]
+
+注意
+	本ベンチマークは、当方の環境(Xeon E5530 2.4GHz*2)ではプログラムによっては
+	ClassWでは1時間以上かかり、ClassAでは10時間以上かかることもしばしばです。
+	お試しの際はご注意ください。
+	JRubyなどのGlobal Interpreter Lockがない処理系では、
+	スレッドを増やすと性能が改善するはずです。
+	MRIやRubiniusではスレッドを増やしても意味がありません。
+
+解説
+	NPB3.0(http://www.nas.nasa.gov/Software/NPB/)のJava版から
+	簡易トランスレータを通じて変換したRuby版NPBです。
+	トランスレータを少しずつ改良したため、ベンチマークごとに
+	コーディングスタイルにばらつきがありますがご容赦ください。
+
+オプション
+	-serial
+		シングルスレッドで動かしたい時に指定する。
+	-npnum
+		numには立てるスレッドの数を指定する。
+	-CLASSproblem
+		problemには解く問題サイズを指定する。
+		指定できる問題は小さい順にS,W,A,B,Cである。
+
+バグ
+	バグの報告・パッチの送付はtknose@is.s.u-tokyo.ac.jpまでお願いします。
+	些細なものでしたらTwitter(@plus7)でもかまいません。
+	このRuby版に関して NAS Parallel Benchmarks Group に問い合わせることはしないでください。
+
+COPYING
+	変換元のNAS Parallel Benchmarks 3.0ならびにそのJava版に準じます。
+
+作者
+	野瀬 貴史 <tknose@is.s.u-tokyo.ac.jp>
+	泊 久信 <tomari@is.s.u-tokyo.ac.jp>

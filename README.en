@@ -1,0 +1,32 @@
+NAME
+	NAS Parallel Benchmarks 3.0 Ruby version
+
+SYNOPSIS
+	ruby -I . [File] -CLASSproblem [Option]
+
+DESCRIPTION
+	Ruby version of NPB3.0 (http://www.nas.nasa.gov/Software/NPB/)
+	translated from Java using automatic translator.
+
+OPTIONS
+	-serial
+		Specify if you want to run benchmark in single thread mode.
+	-np[num]
+		Specify the number of threads at [num]
+	-CLASS[problem]
+	CLASS=[problem]
+		Specify benchmark class at [problem].
+		Available classes are S, W, A, B, and C.
+
+BUGS
+	For all errors/feedbacks related to NPB3.0 Ruby version, please contact:
+	Takafumi NOSE <tknose@is.s.u-tokyo.ac.jp>
+	DO NOT CONTACT WITH NAS Parallel Benchmarks Team ABOUT THIS 
+	RUBY VERSION!
+
+COPYING
+	Same as original NPB 3.0.
+
+AUTHOR
+	Takafumi NOSE <tknose@is.s.u-tokyo.ac.jp>
+	Hisanobu TOMARI <tomari@is.s.u-tokyo.ac.jp>
